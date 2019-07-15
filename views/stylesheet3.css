@@ -1,0 +1,132 @@
+.banner {
+    border-radius: 6px;
+    background-color: white;
+    color: #59af50;
+    margin: 0;
+}
+.banner2 {
+    padding-left: 10px;
+}
+.banner3 {
+    color: #000;
+    padding-left: 10px;
+    padding-bottom: 40px;
+}
+ul {    
+    list-style-type: none;
+    background: white;
+    padding: 0;
+}
+li {
+    display: inline;
+}
+ul li a{
+    display: block;
+    background-color: #555555;
+    border: 1px solid #555555;
+    color: #000;
+    width: 19%;
+    height: 35px;
+    padding-left: 10px;
+    text-decoration: none;
+    margin: 6px;
+    box-sizing: border-box;
+    float: left;
+    text-align: center
+}
+.li a:hover {
+    background-color: white;
+}
+table {
+    border-collapse: collapse; width: 108%;
+    background-color: white;
+}
+th,td {
+    text-align: left;
+    padding: 8px; vertical-align: middle;
+}
+tr:nth-child(odd) {
+    background-color: #f2f2f2;
+}
+th {
+    background-color: #4caf50;
+    color: white;
+}
+tr:hover {
+    background-color: yellow;
+}
+.sidebar {
+    border-radius: 6px;
+    background-color: #59af50;
+    color: white;    
+    margin: 0;
+    width: 100%;
+}
+.sidebar2 {
+    margin-bottom: 0;
+    padding-left: 10px;  
+}
+.sidebar3 {
+    margin-top: 0;
+    padding-left: 10px;
+}
+.footer {
+    border-radius: 6px;
+    background-color: lightgray;
+    color: #59af50;
+    width: 100%;
+}
+.footer2 {
+    margin-bottom: 0;
+    padding-left: 10px;
+}
+.footer3 {
+    margin-top: 0;
+    padding-left: 10px;
+}
+body {
+    margin: 10px;
+}
+.topnav {
+    overflow: hidden;
+    list-style-type: none;
+    background-color: #333;
+    padding: 14px;
+}
+.topnav a {
+    display: inline;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+* {
+    box-sizing: border-box;
+}
+.column {
+    float: left;
+    padding: 10px;
+    border: 1px solid red;
+}
+.column.side {
+    width: 25%;
+}
+.column.middle {
+    width: 50%;
+}
+.row {
+    display: inline;
+}
+.content {
+    display: block;
+    width: 100%;
+    padding-right: 10px;
+    background-color: white;
+}
+.content_color {
+    color: #59af50;
+}
